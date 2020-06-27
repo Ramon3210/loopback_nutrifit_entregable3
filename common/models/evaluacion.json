@@ -1,0 +1,35 @@
+{
+  "name": "evaluacion",
+  "plural": "evaluaciones",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "estatura": {
+      "type": "string",
+      "required": true
+    },
+    "peso": {
+      "type": "string",
+      "required": true
+    },
+    "edad": {
+      "type": "string",
+      "required": true
+    },
+    "porcentajeGrasa": {
+      "type": "string",
+      "required": true
+    },
+    "complexion": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

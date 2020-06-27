@@ -1,0 +1,23 @@
+{
+  "ids": {
+    "User": 1,
+    "AccessToken": 1,
+    "ACL": 1,
+    "RoleMapping": 1,
+    "Role": 1,
+    "paciente": 3,
+    "evaluacion": 1
+  },
+  "models": {
+    "User": {},
+    "AccessToken": {},
+    "ACL": {},
+    "RoleMapping": {},
+    "Role": {},
+    "paciente": {
+      "1": "{\"nombre\":\"Ramón\",\"aPaterno\":\"García\",\"aMaterno\":\"Fernández\",\"email\":\"rgarcia278@accitesz.com\",\"telefono\":\"3511190238\",\"fechaNacimiento\":\"19-12-1985\",\"id\":1}",
+      "2": "{\"nombre\":\"Pedro\",\"aPaterno\":\"Pérez\",\"aMaterno\":\"Pereira\",\"email\":\"petterpp@gmail.com\",\"telefono\":\"6661234567\",\"fechaNacimiento\":\"15-01-1995\",\"id\":2}"
+    },
+    "evaluacion": {}
+  }
+}
